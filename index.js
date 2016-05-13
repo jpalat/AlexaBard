@@ -97,12 +97,14 @@ function handleNewFactRequest(response) {
     var factIndex = Math.floor(Math.random() * SONNETS.length);
     var sonnetObj = SONNETS[factIndex];
 
-
-
     // Create speech output
     var speechOutput = "Here's sonnet number " + sonnetObj.number + ". " + sonnetObj.lines.join(" ");
 
-    response.tellWithCard(speechOutput, "Bard", speechOutput);
+
+    // Create speech output
+    var cardOutput = "By William Shakespeare\n\n" + sonnetObj.lines.join("\n");
+
+    response.tellWithCard(speechOutput, "Sonnet #" + sonnetObj.number, cardOutput);
 }
 
 // Create the handler that responds to the Alexa Request.
