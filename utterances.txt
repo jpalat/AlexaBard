@@ -1,0 +1,15 @@
+GetNewFactIntent a sonnet
+GetNewFactIntent a poem
+GetNewFactIntent tell me a poem
+GetNewFactIntent tell me a sonnet
+GetNewFactIntent give me a poem
+GetNewFactIntent give me a sonnet
+GetNewFactIntent tell me sonnets
+GetNewFactIntent tell me sonnet
+GetNewFactIntent give me a sonnet
+GetNewFactIntent give me a poem
+GetNewFactIntent give me some information
+GetNewFactIntent tell me something
+GetNewFactIntent give me something
+GetNewFactIntent rhyme for me
+GetNewFactIntent give me a rhyhm
